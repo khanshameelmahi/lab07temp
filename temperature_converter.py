@@ -7,11 +7,11 @@
 # Ask the user for a temperature in Celsius 
 celsius = float(input("Temperature in Celsius: ")) 
 
-# Convert to Fahrenheit 
-fahrenheit = celsius * 9 / 5 + 32 
+# Convert to Kelvin
+kelvin = celsius + 273.15
 
-# Show the result 
-print("Fahrenheit: ", fahrenheit)
+# Show the result
+print("Kelvin:", kelvin)
 
 # Give context based on the temperature
-print("It's freezing outside!") if fahrenheit <= 32 else print("It's warm outside.")
+print("It's freezing outside!") if kelvin <= 273.15 else print("It's warm outside.")

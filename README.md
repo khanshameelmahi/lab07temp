@@ -1,7 +1,8 @@
 # Temperature Converter
 
 ## Purpose
-A simple Python program designed to convert temperatures from Celsius to Fahrenheit and give remarks whether the weather is cold or warm.
+A simple Python program designed to convert temperatures from Celsius to Kelvin and give remarks whether the weather is cold or warm.
+
 
 ## How to Run the Program
 1. Make sure you have Python installed on your computer.
@@ -14,8 +15,8 @@ A simple Python program designed to convert temperatures from Celsius to Fahrenh
 
 ## Example Input/Output
 * **Input:** `25` (Celsius)
-* **Output:** `77.0°F` (Fahrenheit) **It's warm outside.**
-
+##273.15 is added in the Celsius temperature to convert it from Celsius to Kelvin.
+* **Output:** `298.15  K` (Fahrenheit) **It's warm outside.**
 
 ## Author
 * Shameel Mahi Khan
