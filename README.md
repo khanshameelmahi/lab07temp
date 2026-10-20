@@ -14,8 +14,8 @@ A simple Python program designed to convert temperatures from Celsius to Fahrenh
 
 ## Example Input/Output
 * **Input:** `25` (Celsius)
-* **Output:** `77.0°F` (Fahrenheit) "It's warm outside."
+* **Output:** `77.0°F` (Fahrenheit) **It's warm outside.**
 
 
-## Author/Group Information
+## Author
 * Shameel Mahi Khan
